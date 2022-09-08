@@ -28,6 +28,7 @@
 
 .contacts__times:hover .contacts__workhours {
   opacity: .8;
+  right: 0;
 }
 
 .contacts__workhours:before,
@@ -47,7 +48,7 @@
   top: 100%;
   margin-top: 15px;
   opacity: 0;
-  right: 0;
+  right: -9999px;
   transition: opacity .3s;
   color: #000;
   font-style: normal;

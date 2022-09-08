@@ -1,0 +1,16 @@
+.icon {
+
+}
+
+.icon--new {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.icon--info {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
