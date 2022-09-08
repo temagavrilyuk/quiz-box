@@ -2,7 +2,7 @@
   position: relative;
   box-shadow: inset 0px -46px 50px #17191c;
   min-height: 400px;
-  background-image: url("/img/bg1.jpg");
+  background-image: url("../../img/bg1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

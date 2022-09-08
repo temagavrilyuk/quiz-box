@@ -5,6 +5,9 @@
 html, body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  -web-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul {
