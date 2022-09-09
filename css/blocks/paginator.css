@@ -1,0 +1,9 @@
+.paginator {
+  margin: 0 auto;
+}
+
+.paginator__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

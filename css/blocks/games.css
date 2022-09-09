@@ -1,0 +1,56 @@
+.games {
+  position: relative;
+  background: linear-gradient(0deg, rgba(23, 25, 28, .7), rgba(23, 25, 28, .7)),
+  url("../../img/bg2.png");
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.games__title {
+  margin-bottom: 45px;
+}
+
+.games__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.games__item {
+  flex-basis: 560px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.games__img {
+  width: 100%;
+  display: block;
+}
+
+.games__overlay {
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.games__overlay-date {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.games__overlay-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.games__overlay-desc {
+  font-weight: 400;
+  font-size: 16px;
+}
