@@ -1,0 +1,16 @@
+.games {
+  position: relative;
+  background-image: url("../../img/bg1.png");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.games__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game__item {
+
+}
