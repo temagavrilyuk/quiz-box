@@ -1,5 +1,13 @@
 .paginator {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.paginator__pages {
+  margin-right: 40px;
+  
 }
 
 .paginator__list {
@@ -9,9 +17,11 @@
 }
 
 .paginator__item {
+  display: flex;
   margin-right: 20px;
 }
 
 .paginator__item:last-child {
   margin-right: 0;
 }
+
